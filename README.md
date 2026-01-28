@@ -1,6 +1,5 @@
 # Covers
 
-
 Welcome to _**Covers**_, a stampless cover and postmark catalog application
 
 This build, nicknamed _Lightspeed_, is version **2.0.0**
