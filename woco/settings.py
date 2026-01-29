@@ -25,7 +25,7 @@ SECRET_KEY = "DUMMY-KEY-HERE-NO-FALSE-POSITIVES-NO-WHAMMY-NO-WHAMMY-STOP"
 DEBUG = config("DEBUG", default=True, cast=bool)
 TESTING = "test" in sys.argv or "PYTEST_VERSION" in os.environ
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['45.55.62.194', '0.0.0.0', 'localhost', '127.0.0.1', 'wcapi.ourstagingserver.com', 'www.wcapi.ourstagingserver.com']
 INTERNAL_IPS = [
     "127.0.0.1"
 ]
